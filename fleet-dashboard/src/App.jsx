@@ -9,6 +9,7 @@ export default function App() {
       
 
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4 mb-6">
+        {/*idhar same data hai jesa reference image mein hai*/}
         <StatCard title="Total Vehicles" value="210" bgColor="bg-[#0B3954]" iconColor="bg-[#124D70]" />
         <StatCard title="Running Vehicles" value="156" bgColor="bg-[#00C46A]" iconColor="bg-[#00A157]" />
         <StatCard title="Stopped Vehicles" value="26" bgColor="bg-[#FF3B30]" iconColor="bg-[#D93229]" />
